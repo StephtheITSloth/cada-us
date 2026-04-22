@@ -29,6 +29,14 @@
   --color-border: #E4E0DA;
   --color-border-dark: #2E2A27;
 
+    /* Bridge tokens for React/Tailwind pages */
+  --near-black: var(--color-text);
+  --deep-burgundy: var(--color-accent);
+  --charcoal: #3C3A36;         /* pick a rich neutral; or use var(--color-text) */
+  --medium-gray: var(--color-muted);
+  --border: var(--color-border);
+  --secondary: var(--color-bg-subtle)
+
   /* Typography */
   --font-serif: "Cormorant Garamond", "Garamond", "Georgia", "Times New Roman", serif;
   --font-sans: "DM Sans", "Helvetica Neue", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
